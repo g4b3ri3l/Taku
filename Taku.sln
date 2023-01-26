@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Taku", "Taku\Taku.vcxproj", "{ACA2B7E2-6CE5-4573-A41B-6DB4CC1F5222}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{2115A321-50B8-4DD5-AC83-5C6ACC8917D7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{C0347FF3-541F-432F-A8CB-C6164E062B0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EXE", "EXE", "{E8D91D0D-FEDE-4A18-AD7C-25C5692F6F86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACA2B7E2-6CE5-4573-A41B-6DB4CC1F5222}.Debug|x64.ActiveCfg = Debug|x64
+		{ACA2B7E2-6CE5-4573-A41B-6DB4CC1F5222}.Debug|x64.Build.0 = Debug|x64
+		{ACA2B7E2-6CE5-4573-A41B-6DB4CC1F5222}.Release|x64.ActiveCfg = Release|x64
+		{ACA2B7E2-6CE5-4573-A41B-6DB4CC1F5222}.Release|x64.Build.0 = Release|x64
+		{C0347FF3-541F-432F-A8CB-C6164E062B0C}.Debug|x64.ActiveCfg = Debug|x64
+		{C0347FF3-541F-432F-A8CB-C6164E062B0C}.Debug|x64.Build.0 = Debug|x64
+		{C0347FF3-541F-432F-A8CB-C6164E062B0C}.Release|x64.ActiveCfg = Release|x64
+		{C0347FF3-541F-432F-A8CB-C6164E062B0C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACA2B7E2-6CE5-4573-A41B-6DB4CC1F5222} = {2115A321-50B8-4DD5-AC83-5C6ACC8917D7}
+		{C0347FF3-541F-432F-A8CB-C6164E062B0C} = {E8D91D0D-FEDE-4A18-AD7C-25C5692F6F86}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {865290E0-18C6-4EAC-9138-0489B176E401}
+	EndGlobalSection
+EndGlobal
