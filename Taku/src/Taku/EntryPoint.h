@@ -6,7 +6,12 @@ extern Taku::Application* Taku::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	printf("Taku Engine\n");
+	Taku::Log::Init();
+	TK_CORE_WARN("Initialized Log!");
+	int a = 5;
+	TK_INFO("Hello! Var={0}", a);
+
+
 	auto app = Taku::CreateApplication();
 	app->Run();
 	delete app;

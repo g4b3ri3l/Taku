@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include "Taku/Application.h"
+#include "Taku/Log.h"
 
 // ---Entry Point-------------------------
 #include "Taku/EntryPoint.h"

@@ -1,36 +1,46 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Taku">
+      <UniqueIdentifier>{3ACA8C7C-2601-8E0D-CFED-7310BB030A0F}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Taku\Events">
+      <UniqueIdentifier>{DE7065AB-4A26-DEA0-D31A-D8773FCFD4A4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Taku\Core.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClInclude Include="src\Taku.h" />
     <ClInclude Include="src\Taku\Application.h">
-      <Filter>Header Files</Filter>
+      <Filter>Taku</Filter>
     </ClInclude>
-    <ClInclude Include="src\Taku.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\Taku\Core.h">
+      <Filter>Taku</Filter>
     </ClInclude>
     <ClInclude Include="src\Taku\EntryPoint.h">
-      <Filter>Header Files</Filter>
+      <Filter>Taku</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Taku\Events\ApplicationEvent.h">
+      <Filter>Taku\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Taku\Events\Event.h">
+      <Filter>Taku\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Taku\Events\KeyEvent.h">
+      <Filter>Taku\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Taku\Events\MouseEvent.h">
+      <Filter>Taku\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Taku\Log.h">
+      <Filter>Taku</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Taku\Application.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Taku</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Taku\Log.cpp">
+      <Filter>Taku</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

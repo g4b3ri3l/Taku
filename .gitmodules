@@ -1,0 +1,3 @@
+[submodule "Taku/vendor/spdlog"]
+	path = Taku/vendor/spdlog
+	url = https://github.com/gabime/spdlog
