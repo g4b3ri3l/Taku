@@ -19,6 +19,9 @@ project "Taku"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "tkpch.h"
+	pchsource "Taku/src/tkpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

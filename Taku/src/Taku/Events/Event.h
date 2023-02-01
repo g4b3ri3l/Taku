@@ -2,8 +2,6 @@
 
 #include "Core.h"
 
-#include <string>
-#include <functional>
 
 namespace Taku {
 

@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Taku {
 	class TAKU_API KeyEvent : public Event
 	{

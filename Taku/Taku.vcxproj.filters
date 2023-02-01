@@ -34,6 +34,7 @@
     <ClInclude Include="src\Taku\Log.h">
       <Filter>Taku</Filter>
     </ClInclude>
+    <ClInclude Include="src\tkpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Taku\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\Taku\Log.cpp">
       <Filter>Taku</Filter>
     </ClCompile>
+    <ClCompile Include="src\tkpch.cpp" />
   </ItemGroup>
 </Project>
